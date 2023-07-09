@@ -1,0 +1,75 @@
+#otpbutton{
+    padding: 10px 20px;
+        font-size: 18px;
+        background-color: #4CAF50;
+        color: white;
+        margin: 25px;
+}
+
+#otpbutton[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+h2{
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+svg{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+h1{
+    margin: 30px;
+    background-color: #4CAF50;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    margin: 20px;
+    font-size: 24px;
+        margin-top: 20px;
+        color: white;
+}
+
+.container {
+        margin: 20px;
+        text-align: center;
+        color: white;
+}
+        
+#info {
+border: 1px solid green;
+padding: 10px;
+margin: auto;
+width: 1000px;
+font-size: 28px;
+text-align: center;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+        
+#shareButton {
+   padding: 10px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   cursor: pointer;
+   height: 60px;
+   font-size: 20px;
+}
+
+body{
+    background-image: url('bgimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
