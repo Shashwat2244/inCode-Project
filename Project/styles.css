@@ -1,24 +1,47 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f1f1f1;
+  background-image: url('bgimg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+header {
+  position: fixed;
+  top: 0%;
+  text-align: center;
+  background-color: #45a049;
+
+  color: white;
+  height: 70px;
+  font-size: 50px;
+  text-align: center;
 }
 
 canvas {
-    position: absolute;
+  position: absolute;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
-#popUpButton{
-    height: 60px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-    background-color: green;
-    color: white;
+#popUpButton {
+  height: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+}
+footer {
+  position: fixed;
+  bottom: 0%;
+  font-size: 22.5px;
+  background-color: green;
+  color: gold;
 }

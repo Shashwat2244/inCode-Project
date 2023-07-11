@@ -127,7 +127,7 @@ function scheduleCab() {
     scheduledItem.appendChild(dateTimeText);
 
     const button = document.createElement('button');
-    button.textContent = 'Start Ride';
+    button.textContent = 'Start Ride Now';
     button.style.float = 'right';
     button.style.height = '40px';
     button.style.fontSize = '20px';
